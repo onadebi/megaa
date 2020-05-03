@@ -1,0 +1,200 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+section.about_mandate{
+  display: flex;
+}
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main{
+  /* background-color: #fafafa; */
+}
+
+
+.nav-link {
+  font-weight: 600;
+  margin:0px 5px;
+  transition-duration: 1.0s;
+}
+
+.nav-link:hover {
+  border-bottom:1px solid orange;
+}
+
+.onx-btn{
+  border: 1px #fff;
+    background-color: #416294;
+    padding: 5px 10px; color:#fff;
+    transition-duration: 0.5s;
+}
+
+.onx-btn:hover{
+  border: 1px solid #416294;
+    background-color: transparent;
+   color:#fff;
+}
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+.coolbox{
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+.onx-btn-inverse{
+  border: 1px solid orange;
+    background-color: transparent;
+    padding: 5px 10px; color:#000;
+    transition-duration: 1.0s;
+}
+.onx-btn-inverse:hover{
+  border: 1px #fff;
+    background-color: orange;
+    padding: 5px 10px; color:#fff;
+}
+
+.carousel-item img{
+  width:100%;
+  height:400px
+}
+
+.onx-link-active{
+  color:#c1881e !important;
+  font-weight: bold !important;
+  border-bottom:1px solid #c1881e;
+}
+
+.midLiner{
+  text-align: center;
+  background-color: #416294;
+  color:#fff;
+  transition-duration: 1.0s;
+  padding:15px 0px;
+}
+.midLiner:hover{
+  /* background-color: orange; */
+}
+
+.onx-fa-size {
+  font-size: .8em;
+  color: #c1881e;
+}
+.footerTop {
+  background-color: #373839;
+  color: #8c8d8d;
+}
+.footerMain {
+  background-color: #2a2a2a;
+  color: #8c8d8d;
+  padding: 15px;
+}
+.box250 {
+  max-width: 350px;
+  text-align: justify;
+  margin: auto;
+}
+.medTitleHeader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dark {
+  padding: 15px;
+  background:#416294; /* #5085A5; */
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.onx-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h1, .h1 {
+  font-size: 1.5rem !important;
+}
+
+div.row.homeGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+div.row.homeGrid h4{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: unset;
+}
+div.row.homeGrid div{
+  border:1px solid #ececec;
+  border-radius: 4px;
+  margin:2px;
+}
+
+div.row.homeGrid div p{
+  text-align: justify;
+    padding: 15px;
+    line-height: 20px;
+}
+
+
+
+@media(max-width:500px){
+  section.about_mandate{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section.about_mandate img{
+    width: 80%;
+  }
+
+  div.row.homeGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+
+}

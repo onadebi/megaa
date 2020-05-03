@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `ONAXSYS APP`
+### `MEGAA APP`
 
-This project is the front end for the base onaxsys.com web api calls.
+This project is the front end website for Megaa Foundation
